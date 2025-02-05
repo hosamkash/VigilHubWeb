@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Vigil Hub - Your application description here.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="vigil_hub">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+
+  <title>vigil_hub</title>
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Firebase Configuration -->
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+  <script>
+    var firebaseConfig = {
+      apiKey: 'AIzaSyCR6mBQnJBuKrXGAs_YLl6hpX8bQYHYHQc',
+      authDomain: 'vigilhub-firebase.firebaseapp.com',
+      projectId: 'vigilhub-firebase',
+      storageBucket: 'vigilhub-firebase.firebasestorage.app',
+      measurementId: 'G-F4C4QXBXCP',
+      appId: '1:757476048946:web:8f26b05f2136be73efbc2b',
+    };
+    firebase.initializeApp(firebaseConfig);
+  </script>
+</head>
+<body>
+<script src="flutter.js" defer></script>
+<script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
