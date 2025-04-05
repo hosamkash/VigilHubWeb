@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="index.html" type="DartWebdevConfigurationType" factoryName="Dart Web" singleton="false" nameIsGenerated="true">
+    <option name="htmlFilePath" value="$PROJECT_DIR$/index.html" />
+    <method v="2" />
+  </configuration>
+</component>
